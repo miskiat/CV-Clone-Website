@@ -1,0 +1,29 @@
+.home {
+  @apply h-screen w-screen m-10;
+  background-image: url("/vectors/herobg.svg");
+}
+.first {
+  @apply p-20;
+}
+
+.logo {
+}
+.build {
+  @apply text-7xl text-yellow-600 font-bold  pt-10;
+}
+.join {
+  @apply text-yellow-600 font-normal  pt-9;
+}
+.button {
+  @apply bg-green-800 text-white h-12 w-44 text-lg rounded;
+}
+.icons {
+  @apply flex space-x-6 cursor-pointer;
+}
+
+.side {
+  @apply ml-64;
+}
+.state {
+  @apply text-7xl text-yellow-600 font-bold  pt-10;
+}
