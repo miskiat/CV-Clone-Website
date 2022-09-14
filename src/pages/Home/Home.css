@@ -1,29 +1,58 @@
 .home {
-  @apply h-screen w-screen m-10;
+  @apply h-screen w-screen relative flex;
   background-image: url("/vectors/herobg.svg");
 }
-.first {
-  @apply p-20;
-}
-
-.logo {
+.homeleft {
+  @apply ml-[7rem] pt-[5rem];
 }
 .build {
-  @apply text-7xl text-yellow-600 font-bold  pt-10;
+  @apply text-7xl text-blue-800 font-bold mt-48 max-w-[30rem];
 }
 .join {
-  @apply text-yellow-600 font-normal  pt-9;
+  @apply text-xl text-slate-600 font-normal mt-8 max-w-[33rem];
 }
 .button {
-  @apply bg-green-800 text-white h-12 w-44 text-lg rounded;
+  @apply bg-green-800 text-white h-12 w-44  mt-5 text-lg rounded;
 }
 .icons {
-  @apply flex space-x-6 cursor-pointer;
+  @apply flex space-x-6 cursor-pointer mt-20 h-10 w-10;
 }
 
 .side {
-  @apply ml-64;
+  @apply ml-64  h-[100%] w-[50%] absolute top-0 right-0;
+}
+/* .sidee {
+  @apply h-[40%] w-[40%] absolute top-0 right-0;
+} */
+.second {
+  @apply ml-[7rem] pt-[5rem] h-screen w-screen;
+}
+.heading {
+  @apply flex mt-8 mb-20;
 }
 .state {
-  @apply text-7xl text-yellow-600 font-bold  pt-10;
+  @apply text-6xl text-blue-900 font-bold max-w-[45rem];
+}
+.inclusive {
+  @apply text-xl text-slate-600 font-normal max-w-[30rem];
+}
+.office {
+}
+.secondbuttom {
+  @apply flex space-x-20 mt-20 text-slate-600;
+}
+.iconss {
+  @apply text-2xl;
+}
+
+.design {
+  @apply max-w-[23rem];
+}
+.building {
+  @apply max-w-[30rem];
+}
+.work {
+  @apply max-w-[25rem];
+}
+.one {
 }
