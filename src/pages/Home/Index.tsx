@@ -47,7 +47,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="two">
+          <div className="one">
             <img src="/public/vectors/tent-circle.svg" alt="" />
             <div>
               <h1 className="iconss">Bootcamps & Trainings</h1>
@@ -58,7 +58,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="three">
+          <div className="one">
             <img src="/public/vectors/workspace-circle.svg" alt="" />
             <div>
               <h1 className="iconss">Workspaces & Tech Hub</h1>
@@ -71,6 +71,112 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="third">
+        <div className="left">
+          <div className="mobile">
+            Learn Web & Mobile Development. Access the global job market.
+          </div>
+          <div className="world">
+            The world is constantly in need of technical talent supply pool.
+            Tech is needed accross every sector. Your course of study doesn’t
+            matter. All you need is the skill and experience.
+          </div>
+          <button className="learn">Learn more</button>
+        </div>
+
+        <div className="right">
+          <div className="line-one">
+            <img src="/public/vectors/mail-white.svg" />
+            <div>
+              <div className="program">Program Schedule</div>
+              <div className="training">
+                6 months training + 6months paid internship
+                <div className="custom">
+                  (there is a custom schedule for students)
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="line-one">
+            <img src="/public/vectors/group-white.svg" />
+            <div>
+              <div className="program">Our Curriculum</div>
+              <div className="training">
+                It covers the fundamentals and advanced concepts of web & mobile
+                development
+              </div>
+            </div>
+          </div>
+
+          <div className="line-one">
+            <img src="/public/vectors/group-white (1).svg" />
+            <div>
+              <div className="program">Experiential Learning</div>
+              <div className="training">
+                30+ Hands-on Projects &
+                <div>5+ Real World (Production Grade) Projects</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div className="expert">
+          <div className="expertise">Our Expertise</div>
+          <div className="expertisee">
+            We have built several solutions from ground up using the following
+            frameworks. Our world class expertise is enviable.
+          </div>
+        </div>
+
+        <div className="image">
+          <div className="image-one">
+            <img src="/public/vectors/andriod.svg" />
+            <img src="/public/vectors/bootstrap.svg" />
+            <img src="/public/vectors/aws.svg" />
+            <img src="/public/vectors/heroku.svg" />
+            <img src="/public/vectors/html5.svg" />
+            <img src="/public/vectors/node.svg" />
+            <img src="/public/vectors/github.svg" />
+            <img src="/public/vectors/css.svg" />
+          </div>
+
+          <div className="image-two">
+            <img src="/public/vectors/gitlab.svg" />
+            <img src="/public/vectors/react.svg" />
+            <img src="/public/vectors/mysql.svg" />
+            <img src="/public/vectors/mongodb.svg" />
+            <img src="/public/vectors/python.svg" />
+            <img src="/public/vectors/vue.svg" />
+          </div>
+
+          <div className="image-three">
+            <img src="/public/vectors/postgres.svg" />
+            <img src="/public/vectors/js.svg" />
+            <img src="/public/vectors/firebase.svg" />
+            <img src="/public/vectors/redux.svg" />
+            <img src="/public/vectors/tailwind.svg" />
+          </div>
+          <div className="image-four">
+            <img src="/public/vectors/ruby.svg" />
+            <img src="/public/vectors/figma.svg" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="code">
+          <div className="codevillage">
+            Codevillage Kids & Teens Code Classes
+          </div>
+
+          <div className="codevillagee">
+            Will your kids be able to build a tech solution? Yes, It’s possible.
+            “We catch them young” by introducing these fresh minds into how
+            computer works and how to make it do what they want.
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

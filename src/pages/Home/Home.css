@@ -6,10 +6,10 @@
   @apply ml-[7rem] pt-[5rem];
 }
 .build {
-  @apply text-7xl text-blue-800 font-bold mt-48 max-w-[30rem];
+  @apply text-8xl text-[#18214d] font-bold mt-48 max-w-[35rem];
 }
 .join {
-  @apply text-xl text-slate-600 font-normal mt-8 max-w-[33rem];
+  @apply text-xl text-[#3e4562] font-normal mt-8 max-w-[33rem];
 }
 .button {
   @apply bg-green-800 text-white h-12 w-44  mt-5 text-lg rounded;
@@ -25,21 +25,22 @@
   @apply h-[40%] w-[40%] absolute top-0 right-0;
 } */
 .second {
-  @apply ml-[7rem] pt-[5rem] h-screen w-screen;
+  @apply ml-[7rem] pt-[5rem] w-full;
 }
 .heading {
-  @apply flex mt-8 mb-20;
+  @apply flex mt-8 mb-20 gap-24;
 }
 .state {
-  @apply text-6xl text-blue-900 font-bold max-w-[45rem];
+  @apply text-6xl text-[#18214d] font-bold max-w-[45rem];
 }
 .inclusive {
-  @apply text-xl text-slate-600 font-normal max-w-[30rem];
+  @apply text-xl text-[#3e4562] font-normal max-w-[30rem];
 }
 .office {
+  @apply h-[50%] w-[90%];
 }
 .secondbuttom {
-  @apply flex space-x-20 mt-20 text-slate-600;
+  @apply flex space-x-20 mt-20 text-[#3e4562];
 }
 .iconss {
   @apply text-2xl;
@@ -55,4 +56,68 @@
   @apply max-w-[25rem];
 }
 .one {
+  @apply flex space-x-3 mt-8 items-start;
+}
+
+.third {
+  @apply pl-[7rem] bg-[#f0f2f6] grid grid-cols-2 py-32 mt-10;
+}
+.mobile {
+  @apply text-6xl text-[#18214d] font-bold max-w-[40rem] mb-4;
+}
+.left {
+  border-right: 1px solid gray;
+}
+.right {
+  @apply pl-20;
+}
+.world {
+  @apply text-[#3e4562] max-w-[30rem] mb-6;
+}
+.learn {
+  @apply bg-green-800 text-white h-12 w-44  mt-5 text-lg rounded;
+}
+.line-one {
+  @apply flex items-start mb-10;
+}
+
+.program {
+  @apply text-green-800 font-normal text-2xl ml-4;
+}
+.training {
+  @apply text-[1.1rem] text-[#3e4562] font-medium max-w-[30rem] ml-4;
+}
+.custom {
+  @apply text-slate-400 text-lg;
+}
+
+section {
+  @apply flex items-center justify-center gap-x-[3rem] pt-32 space-y-20 pl-28  bg-[#f4f8f6];
+}
+.expertise {
+  @apply text-6xl text-[#18214d] font-bold;
+}
+.expertisee {
+  @apply text-[1.1rem] text-[#3e4562] font-medium max-w-[30rem];
+}
+.image-one {
+  @apply flex;
+}
+.image-two {
+  @apply flex;
+}
+.image-three {
+  @apply flex;
+}
+.image-four {
+  @apply flex;
+}
+.code {
+  @apply bg-gray-50 items-center justify-center;
+}
+.codevillage {
+  @apply text-6xl text-[#18214d] font-bold max-w-[40rem];
+}
+.codevillagee {
+  @apply text-[#3e4562] max-w-[35rem] mt-6  text-[1.1rem];
 }
