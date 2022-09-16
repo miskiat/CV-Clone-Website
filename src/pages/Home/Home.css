@@ -91,8 +91,8 @@
   @apply text-slate-400 text-lg;
 }
 
-section {
-  @apply flex items-center justify-center gap-x-[3rem] pt-32 space-y-20 pl-28  bg-[#f4f8f6];
+.sectioncode {
+  @apply pt-32 space-y-20 pl-28  bg-[#f4f8f6];
 }
 .expertise {
   @apply text-6xl text-[#18214d] font-bold;
@@ -112,12 +112,20 @@ section {
 .image-four {
   @apply flex;
 }
-.code {
-  @apply bg-gray-50 items-center justify-center;
+.lastpath {
+  background-color: aqua;
+  padding: 7rem 10rem;
+  height: 40rem;
 }
-.codevillage {
-  @apply text-6xl text-[#18214d] font-bold max-w-[40rem];
+.logoo {
+  height: 8rem;
+  width: 8rem;
 }
-.codevillagee {
-  @apply text-[#3e4562] max-w-[35rem] mt-6  text-[1.1rem];
+.lastt {
+  display: flex;
+  margin-left: 5rem;
+  gap: 24rem;
+}
+.iconss {
+  @apply flex;
 }

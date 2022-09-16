@@ -165,7 +165,7 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <div className="code">
+        <dmiv className="code">
           <div className="codevillage">
             Codevillage Kids & Teens Code Classes
           </div>
@@ -174,6 +174,39 @@ const Home = () => {
             Will your kids be able to build a tech solution? Yes, It’s possible.
             “We catch them young” by introducing these fresh minds into how
             computer works and how to make it do what they want.
+          </div>
+        </dmiv>
+        <div>
+          <div>Secure a spot for your kid now </div>
+          <img src="/public/vectors/arrow-right.svg" />
+        </div>
+      </section>
+      <section className="lastpath">
+        <div>
+          <img className="logoo" src="/public/vectors/cv-logo.svg" />
+          <div>Building the tech talents for the future of work.</div>
+        </div>
+        <div className="programm">
+          <div>Our Programs</div>
+          <div>Fullstack Training</div>
+          <div>Kids & Teens Code Classes</div>
+        </div>
+        <div>
+          <div>Links</div>
+          <span>Careers Refund Policy Privacy Policy</span>
+        </div>
+        <div>
+          Contacts Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger
+          Road, Ilorin, Nigeria 08168861541 (Nigeria) +1 (707) 681-1531
+          (International) +1 (707) 681-1531 (Whatsapp) hello@codevillage.ng
+          Copyright © 2020-2022 Codevillage Limited fb-icon
+        </div>
+        <div className="lastt">
+          <div>Copyright © 2020-2022 Codevillage Limited</div>
+          <div className=" iconss">
+            <img src="/public/vectors/fb-icon.svg" />
+            <img src="/public/vectors/tw-icon.svg" />
+            <img src="/public/vectors/github-icon.svg" />
           </div>
         </div>
       </section>
