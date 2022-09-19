@@ -121,7 +121,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section>
+      <section className="packages">
         <div className="expert">
           <div className="expertise">Our Expertise</div>
           <div className="expertisee">
@@ -130,8 +130,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="image">
-          <div className="image-one">
+        <div className="container">
+          <div className="img">
             <img src="/public/vectors/andriod.svg" />
             <img src="/public/vectors/bootstrap.svg" />
             <img src="/public/vectors/aws.svg" />
@@ -140,32 +140,27 @@ const Home = () => {
             <img src="/public/vectors/node.svg" />
             <img src="/public/vectors/github.svg" />
             <img src="/public/vectors/css.svg" />
-          </div>
 
-          <div className="image-two">
             <img src="/public/vectors/gitlab.svg" />
             <img src="/public/vectors/react.svg" />
             <img src="/public/vectors/mysql.svg" />
             <img src="/public/vectors/mongodb.svg" />
             <img src="/public/vectors/python.svg" />
             <img src="/public/vectors/vue.svg" />
-          </div>
 
-          <div className="image-three">
             <img src="/public/vectors/postgres.svg" />
             <img src="/public/vectors/js.svg" />
             <img src="/public/vectors/firebase.svg" />
             <img src="/public/vectors/redux.svg" />
             <img src="/public/vectors/tailwind.svg" />
-          </div>
-          <div className="image-four">
+
             <img src="/public/vectors/ruby.svg" />
             <img src="/public/vectors/figma.svg" />
           </div>
         </div>
       </section>
       <section>
-        <dmiv className="code">
+        <div className="code">
           <div className="codevillage">
             Codevillage Kids & Teens Code Classes
           </div>
@@ -175,32 +170,41 @@ const Home = () => {
             “We catch them young” by introducing these fresh minds into how
             computer works and how to make it do what they want.
           </div>
-        </dmiv>
-        <div>
-          <div>Secure a spot for your kid now </div>
-          <img src="/public/vectors/arrow-right.svg" />
+          <div className="secure">
+            <div>Secure a spot for your kid now </div>
+            <img src="/public/vectors/arrow-right.svg" />
+          </div>
         </div>
       </section>
       <section className="lastpath">
-        <div>
-          <img className="logoo" src="/public/vectors/cv-logo.svg" />
-          <div>Building the tech talents for the future of work.</div>
+        <div className="lastpathh">
+          <div>
+            <img className="logoo" src="/public/vectors/cv-logo.svg" />
+            <div className="activities">
+              Building the tech talents for the future of work.
+            </div>
+          </div>
+          <div className="programm">
+            <div className="contact">Our Programs</div>
+            <div className="activities">Fullstack Training</div>
+            <div className="activities">Kids & Teens Code Classes</div>
+          </div>
+          <div>
+            <div className="contact">Links</div>
+            <span className="activities">
+              Careers Refund Policy Privacy Policy
+            </span>
+          </div>
+          <div>
+            <div className="contact">Contacts</div>
+            <div>
+              Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger
+              Road, Ilorin, Nigeria 08168861541 (Nigeria) +1 (707) 681-1531
+              (International) +1 (707) 681-1531 (Whatsapp) hello@codevillage.ng
+            </div>
+          </div>
         </div>
-        <div className="programm">
-          <div>Our Programs</div>
-          <div>Fullstack Training</div>
-          <div>Kids & Teens Code Classes</div>
-        </div>
-        <div>
-          <div>Links</div>
-          <span>Careers Refund Policy Privacy Policy</span>
-        </div>
-        <div>
-          Contacts Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger
-          Road, Ilorin, Nigeria 08168861541 (Nigeria) +1 (707) 681-1531
-          (International) +1 (707) 681-1531 (Whatsapp) hello@codevillage.ng
-          Copyright © 2020-2022 Codevillage Limited fb-icon
-        </div>
+
         <div className="lastt">
           <div>Copyright © 2020-2022 Codevillage Limited</div>
           <div className=" iconss">

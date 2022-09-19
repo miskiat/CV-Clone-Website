@@ -60,7 +60,7 @@
 }
 
 .third {
-  @apply pl-[7rem] bg-[#f0f2f6] grid grid-cols-2 py-32 mt-10;
+  @apply pl-[7rem] bg-[#f0f2f6] grid grid-cols-2 py-24 mt-6;
 }
 .mobile {
   @apply text-6xl text-[#18214d] font-bold max-w-[40rem] mb-4;
@@ -72,7 +72,7 @@
   @apply pl-20;
 }
 .world {
-  @apply text-[#3e4562] max-w-[30rem] mb-6;
+  @apply text-[#3e4562] max-w-[40rem] mb-6  text-[1.1rem];
 }
 .learn {
   @apply bg-green-800 text-white h-12 w-44  mt-5 text-lg rounded;
@@ -91,36 +91,61 @@
   @apply text-slate-400 text-lg;
 }
 
-.sectioncode {
-  @apply pt-32 space-y-20 pl-28  bg-[#f4f8f6];
+.packages {
+  @apply bg-[#6bcf9d] pt-[8rem] pb-[7rem];
+}
+.expert {
+  @apply max-w-[91%] mx-auto  flex flex-col justify-center items-center;
 }
 .expertise {
   @apply text-6xl text-[#18214d] font-bold;
 }
 .expertisee {
-  @apply text-[1.1rem] text-[#3e4562] font-medium max-w-[30rem];
+  @apply text-[1.3rem] text-[#18214d] font-medium max-w-[40rem];
 }
-.image-one {
-  @apply flex;
+.container {
+  @apply max-w-[50%] mx-auto mt-10;
 }
-.image-two {
-  @apply flex;
+.img {
+  @apply flex flex-wrap w-full space-x-24 gap-y-16 items-center justify-center pt-[4rem] pb-[4rem];
 }
-.image-three {
-  @apply flex;
+.code {
+  @apply max-w-[91%] mx-auto  flex flex-col justify-center items-center bg-amber-900 pt-24 pb-24;
 }
-.image-four {
-  @apply flex;
+.codevillage {
+  @apply pl-12 mb-6 text-6xl text-[#18214d] font-bold max-w-[40rem];
+}
+.codevillagee {
+  @apply pl-8 mb-6 text-[#3e4562] max-w-[50rem] font-medium text-lg;
+}
+.secure {
+  @apply flex text-[#3e4562] font-bold text-lg;
 }
 .lastpath {
-  background-color: aqua;
+  background-color: bg-#f0f2f6;
   padding: 7rem 10rem;
   height: 40rem;
 }
-.logoo {
-  height: 8rem;
-  width: 8rem;
+.lastpathh {
+  @apply flex;
+
+  flex-direction: row;
+  gap: 20rem;
+  max-width: 30rem;
 }
+
+.logoo {
+  @apply items-start;
+  height: 8rem;
+  width: 20rem;
+}
+.contact {
+  @apply text-[1.5rem] text-[#3e4562] font-medium;
+}
+.activities {
+  @apply max-w-[30rem];
+}
+
 .lastt {
   display: flex;
   margin-left: 5rem;
