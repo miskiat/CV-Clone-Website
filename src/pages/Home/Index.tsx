@@ -178,7 +178,7 @@ const Home = () => {
       </section>
       <section className="lastpath">
         <div className="lastpathh">
-          <div>
+          <div className="talent">
             <img className="logoo" src="/public/vectors/cv-logo.svg" />
             <div className="activities">
               Building the tech talents for the future of work.
@@ -189,25 +189,30 @@ const Home = () => {
             <div className="activities">Fullstack Training</div>
             <div className="activities">Kids & Teens Code Classes</div>
           </div>
-          <div>
+          <div className="link">
             <div className="contact">Links</div>
-            <span className="activities">
-              Careers Refund Policy Privacy Policy
-            </span>
+            <div className="activities">
+              <div>Careers </div>
+              <div> Refund Policy </div>
+              <div> Privacy Policy</div>
+            </div>
           </div>
-          <div>
+          <div className="address">
             <div className="contact">Contacts</div>
-            <div>
+            <div className="activitiess">
               Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger
-              Road, Ilorin, Nigeria 08168861541 (Nigeria) +1 (707) 681-1531
-              (International) +1 (707) 681-1531 (Whatsapp) hello@codevillage.ng
+              Road, Ilorin, Nigeria
+              <div>08168861541 (Nigeria) </div>
+              <div>+1 (707) 681-1531 (International)</div>
+              <div>+1 (707) 681-1531 (Whatsapp)</div>
+              <div>hello@codevillage.ng</div>
             </div>
           </div>
         </div>
 
         <div className="lastt">
           <div>Copyright © 2020-2022 Codevillage Limited</div>
-          <div className=" iconss">
+          <div className=" iconsss">
             <img src="/public/vectors/fb-icon.svg" />
             <img src="/public/vectors/tw-icon.svg" />
             <img src="/public/vectors/github-icon.svg" />

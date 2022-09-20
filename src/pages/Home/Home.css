@@ -92,7 +92,7 @@
 }
 
 .packages {
-  @apply bg-[#6bcf9d] pt-[8rem] pb-[7rem];
+  @apply bg-[#f4f8f6] pt-[8rem] pb-[7rem];
 }
 .expert {
   @apply max-w-[91%] mx-auto  flex flex-col justify-center items-center;
@@ -110,47 +110,57 @@
   @apply flex flex-wrap w-full space-x-24 gap-y-16 items-center justify-center pt-[4rem] pb-[4rem];
 }
 .code {
-  @apply max-w-[91%] mx-auto  flex flex-col justify-center items-center bg-amber-900 pt-24 pb-24;
+  @apply max-w-[100%] mx-auto  flex flex-col justify-center items-center pt-24 pb-24;
 }
 .codevillage {
   @apply pl-12 mb-6 text-6xl text-[#18214d] font-bold max-w-[40rem];
 }
 .codevillagee {
-  @apply pl-8 mb-6 text-[#3e4562] max-w-[50rem] font-medium text-lg;
+  @apply pl-3 mb-6 text-[#3e4562] max-w-[40rem] font-normal text-lg  space-x-24;
 }
 .secure {
-  @apply flex text-[#3e4562] font-bold text-lg;
+  @apply flex text-[#3e4562] font-semibold text-lg gap-3;
 }
 .lastpath {
-  background-color: bg-#f0f2f6;
-  padding: 7rem 10rem;
-  height: 40rem;
+  @apply max-w-[100%] bg-[#f4f8f6]  pl-[8rem] pt-28 pb-28;
 }
 .lastpathh {
-  @apply flex;
-
+  display: flex;
   flex-direction: row;
-  gap: 20rem;
-  max-width: 30rem;
+  gap: 5rem;
+  max-width: 95%;
 }
 
 .logoo {
-  @apply items-start;
-  height: 8rem;
-  width: 20rem;
 }
 .contact {
-  @apply text-[1.5rem] text-[#3e4562] font-medium;
+  @apply text-[1.5rem] text-[#3e4562] font-bold;
 }
 .activities {
-  @apply max-w-[30rem];
+  @apply text-[1.2rem] max-w-[15rem] mt-4 text-[#3e4562];
 }
-
+.activitiess {
+  @apply max-w-[14rem] mt-4 text-[1.2rem] text-[#3e4562];
+}
+.talent {
+  padding-right: 4rem;
+}
+.programm {
+  padding-right: 4rem;
+}
+.link {
+  padding-right: 10rem;
+}
+.address {
+  padding-right: 4rem;
+}
 .lastt {
   display: flex;
   margin-left: 5rem;
   gap: 24rem;
+  background-color: blueviolet;
+  margin-top: 4rem;
 }
-.iconss {
-  @apply flex;
+.iconsss {
+  @apply bg-cyan-400 flex;
 }
