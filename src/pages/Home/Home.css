@@ -24,44 +24,46 @@
 /* .sidee {
   @apply h-[40%] w-[40%] absolute top-0 right-0;
 } */
-.second {
-  @apply ml-[7rem] pt-[5rem] w-full;
-}
+
 .heading {
-  @apply flex mt-8 mb-20 gap-24;
+  @apply ml-[7rem] flex mt-[8rem] mb-20 gap-24 max-w-[85%];
 }
 .state {
   @apply text-6xl text-[#18214d] font-bold max-w-[45rem];
 }
 .inclusive {
-  @apply text-xl text-[#3e4562] font-normal max-w-[30rem];
+  @apply text-[1.1rem] text-[#3e4562] font-normal max-w-[29rem];
 }
 .office {
-  @apply h-[50%] w-[90%];
+  @apply ml-[7rem] h-[50%] w-[85%];
 }
 .secondbuttom {
-  @apply flex space-x-20 mt-20 text-[#3e4562];
+  @apply ml-[7rem] mb-[8rem] flex space-x-20 mt-20 text-[#3e4562] w-[85%];
 }
 .iconss {
   @apply text-2xl;
 }
 
 .design {
-  @apply max-w-[23rem];
+  @apply max-w-[26rem] mt-2 text-[1.2rem];
 }
 .building {
-  @apply max-w-[30rem];
+  @apply max-w-[22rem] mt-2 text-[1.2rem];
+}
+.buildingg {
+  @apply max-w-[22rem] mt-2 text-[1.2rem];
 }
 .work {
   @apply max-w-[25rem];
 }
 .one {
-  @apply flex space-x-3 mt-8 items-start;
+  @apply max-w-[80%] flex space-x-3 mt-8 items-start;
 }
 
 .third {
   @apply pl-[7rem] bg-[#f0f2f6] grid grid-cols-2 py-24 mt-6;
 }
+
 .mobile {
   @apply text-6xl text-[#18214d] font-bold max-w-[40rem] mb-4;
 }
@@ -129,9 +131,11 @@
   flex-direction: row;
   gap: 5rem;
   max-width: 95%;
+  border-bottom: 1px solid #dfe4ea;
 }
 
 .logoo {
+  height: 4rem;
 }
 .contact {
   @apply text-[1.5rem] text-[#3e4562] font-bold;
@@ -140,7 +144,7 @@
   @apply text-[1.2rem] max-w-[15rem] mt-4 text-[#3e4562];
 }
 .activitiess {
-  @apply max-w-[14rem] mt-4 text-[1.2rem] text-[#3e4562];
+  @apply max-w-[16rem] mt-4 text-[1.2rem] text-[#3e4562] pt-2;
 }
 .talent {
   padding-right: 4rem;
@@ -154,13 +158,27 @@
 .address {
   padding-right: 4rem;
 }
+.number {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 800;
+}
+.numberr {
+  font-weight: 800;
+  margin-bottom: 5rem;
+}
+
 .lastt {
   display: flex;
-  margin-left: 5rem;
-  gap: 24rem;
-  background-color: blueviolet;
-  margin-top: 4rem;
+
+  gap: 57rem;
+  color: #555866;
+  font-size: 1.1rem;
+
+  margin-top: 2rem;
 }
 .iconsss {
-  @apply bg-cyan-400 flex;
+  display: flex;
+  gap: 2.5rem;
+  height: 1.5gitrem;
 }

@@ -63,7 +63,7 @@ const Home = () => {
             <div>
               <h1 className="iconss">Workspaces & Tech Hub</h1>
 
-              <p className="building">
+              <p className="buildingg">
                 Work and Connect with other Creatives. All in a fun and cozy
                 environment.
               </p>
@@ -202,10 +202,10 @@ const Home = () => {
             <div className="activitiess">
               Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger
               Road, Ilorin, Nigeria
-              <div>08168861541 (Nigeria) </div>
-              <div>+1 (707) 681-1531 (International)</div>
-              <div>+1 (707) 681-1531 (Whatsapp)</div>
-              <div>hello@codevillage.ng</div>
+              <div className="number">08168861541 (Nigeria) </div>
+              <div className="number">+1 (707) 681-1531 (International)</div>
+              <div className="number">+1 (707) 681-1531 (Whatsapp)</div>
+              <div className="numberr">hello@codevillage.ng</div>
             </div>
           </div>
         </div>
@@ -216,6 +216,7 @@ const Home = () => {
             <img src="/public/vectors/fb-icon.svg" />
             <img src="/public/vectors/tw-icon.svg" />
             <img src="/public/vectors/github-icon.svg" />
+            <img src="/public/vectors/location.svg" />
           </div>
         </div>
       </section>
