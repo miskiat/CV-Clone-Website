@@ -5,7 +5,7 @@ const Home = () => {
     <div>
       <div className="home">
         <div className="homeleft">
-          <img className="logo" src="/public/vectors/cv-logo.svg" />
+          <img className="logo" src="/vectors/cv-logo.svg" />
           <h1 className="build">We build world class Tech talents</h1>
           <p className="join">
             Join our next cohort to accelerate your dream of being a World Class
@@ -13,10 +13,10 @@ const Home = () => {
           </p>
           <button className="button">Enroll now</button>
           <div className="icons">
-            <img src="/public/vectors/fb-icon.svg" />
-            <img src="/public/vectors/tw-icon.svg" />
-            <img src="/public/vectors/github-icon.svg" />
-            <img src="/public/vectors/location.svg" />
+            <img src="/vectors/fb-icon.svg" />
+            <img src="/vectors/tw-icon.svg" />
+            <img src="/vectors/github-icon.svg" />
+            <img src="/vectors/location.svg" />
           </div>
         </div>
 
@@ -36,7 +36,7 @@ const Home = () => {
         <img className="office" src="/public/images/cv-office.jpeg" alt="" />
         <div className="secondbuttom">
           <div className="one">
-            <img src="/public/vectors/bookmark-circle.svg" alt="" />
+            <img src="/vectors/bookmark-circle.svg" alt="" />
             <div>
               <h1 className="iconss">Web & Mobile Development</h1>
 
@@ -48,7 +48,7 @@ const Home = () => {
           </div>
 
           <div className="one">
-            <img src="/public/vectors/tent-circle.svg" alt="" />
+            <img src="/vectors/tent-circle.svg" alt="" />
             <div>
               <h1 className="iconss">Bootcamps & Trainings</h1>
 
@@ -59,7 +59,7 @@ const Home = () => {
           </div>
 
           <div className="one">
-            <img src="/public/vectors/workspace-circle.svg" alt="" />
+            <img src="/vectors/workspace-circle.svg" alt="" />
             <div>
               <h1 className="iconss">Workspaces & Tech Hub</h1>
 
@@ -86,7 +86,7 @@ const Home = () => {
 
         <div className="right">
           <div className="line-one">
-            <img src="/public/vectors/mail-white.svg" />
+            <img src="/vectors/mail-white.svg" />
             <div>
               <div className="program">Program Schedule</div>
               <div className="training">
@@ -99,7 +99,7 @@ const Home = () => {
           </div>
 
           <div className="line-one">
-            <img src="/public/vectors/group-white.svg" />
+            <img src="/vectors/group-white.svg" />
             <div>
               <div className="program">Our Curriculum</div>
               <div className="training">
@@ -110,7 +110,7 @@ const Home = () => {
           </div>
 
           <div className="line-one">
-            <img src="/public/vectors/group-white (1).svg" />
+            <img src="/vectors/group-white (1).svg" />
             <div>
               <div className="program">Experiential Learning</div>
               <div className="training">
@@ -132,30 +132,30 @@ const Home = () => {
 
         <div className="container">
           <div className="img">
-            <img src="/public/vectors/andriod.svg" />
-            <img src="/public/vectors/bootstrap.svg" />
-            <img src="/public/vectors/aws.svg" />
-            <img src="/public/vectors/heroku.svg" />
-            <img src="/public/vectors/html5.svg" />
-            <img src="/public/vectors/node.svg" />
-            <img src="/public/vectors/github.svg" />
-            <img src="/public/vectors/css.svg" />
+            <img src="/vectors/andriod.svg" />
+            <img src="/vectors/bootstrap.svg" />
+            <img src="/vectors/aws.svg" />
+            <img src="/vectors/heroku.svg" />
+            <img src="/vectors/html5.svg" />
+            <img src="/vectors/node.svg" />
+            <img src="/vectors/github.svg" />
+            <img src="/vectors/css.svg" />
 
-            <img src="/public/vectors/gitlab.svg" />
-            <img src="/public/vectors/react.svg" />
-            <img src="/public/vectors/mysql.svg" />
-            <img src="/public/vectors/mongodb.svg" />
-            <img src="/public/vectors/python.svg" />
-            <img src="/public/vectors/vue.svg" />
+            <img src="/vectors/gitlab.svg" />
+            <img src="/vectors/react.svg" />
+            <img src="/vectors/mysql.svg" />
+            <img src="/vectors/mongodb.svg" />
+            <img src="/vectors/python.svg" />
+            <img src="/vectors/vue.svg" />
 
-            <img src="/public/vectors/postgres.svg" />
-            <img src="/public/vectors/js.svg" />
-            <img src="/public/vectors/firebase.svg" />
-            <img src="/public/vectors/redux.svg" />
-            <img src="/public/vectors/tailwind.svg" />
+            <img src="/vectors/postgres.svg" />
+            <img src="/vectors/js.svg" />
+            <img src="/vectors/firebase.svg" />
+            <img src="/vectors/redux.svg" />
+            <img src="/vectors/tailwind.svg" />
 
-            <img src="/public/vectors/ruby.svg" />
-            <img src="/public/vectors/figma.svg" />
+            <img src="/vectors/ruby.svg" />
+            <img src="/vectors/figma.svg" />
           </div>
         </div>
       </section>
@@ -172,14 +172,14 @@ const Home = () => {
           </div>
           <div className="secure">
             <div>Secure a spot for your kid now </div>
-            <img src="/public/vectors/arrow-right.svg" />
+            <img src="/vectors/arrow-right.svg" />
           </div>
         </div>
       </section>
       <section className="lastpath">
         <div className="lastpathh">
           <div className="talent">
-            <img className="logoo" src="/public/vectors/cv-logo.svg" />
+            <img className="logoo" src="/vectors/cv-logo.svg" />
             <div className="activities">
               Building the tech talents for the future of work.
             </div>
@@ -213,10 +213,10 @@ const Home = () => {
         <div className="lastt">
           <div>Copyright © 2020-2022 Codevillage Limited</div>
           <div className=" iconsss">
-            <img src="/public/vectors/fb-icon.svg" />
-            <img src="/public/vectors/tw-icon.svg" />
-            <img src="/public/vectors/github-icon.svg" />
-            <img src="/public/vectors/location.svg" />
+            <img src="/vectors/fb-icon.svg" />
+            <img src="/vectors/tw-icon.svg" />
+            <img src="/vectors/github-icon.svg" />
+            <img src="/vectors/location.svg" />
           </div>
         </div>
       </section>

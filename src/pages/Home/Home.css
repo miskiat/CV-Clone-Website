@@ -118,7 +118,7 @@
   @apply pl-12 mb-6 text-6xl text-[#18214d] font-bold max-w-[40rem];
 }
 .codevillagee {
-  @apply pl-3 mb-6 text-[#3e4562] max-w-[40rem] font-normal text-lg  space-x-24;
+  @apply pl-3 mb-6 text-[#3e4562] max-w-[45rem] font-normal text-lg  space-x-28 text-center;
 }
 .secure {
   @apply flex text-[#3e4562] font-semibold text-lg gap-3;
@@ -180,5 +180,5 @@
 .iconsss {
   display: flex;
   gap: 2.5rem;
-  height: 1.5gitrem;
+  height: 1.5rem;
 }
