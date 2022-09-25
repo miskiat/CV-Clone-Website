@@ -1,3 +1,4 @@
+import Programs from "../../components/Program";
 import Service from "../../components/Service";
 import "./Home.css";
 
@@ -53,6 +54,25 @@ const Home = () => {
       title: "Workspaces & Tech Hub",
       icon: "workspace-circle.svg",
       desc: "Work and Connect with other Creatives. All in a fun and cozy environment.",
+    },
+  ];
+  const programs = [
+    {
+      title: "Program Schedule",
+      icon: "mail-white.svg",
+      desc: "6 months training + 6months paid internship",
+      custom: "  (there is a custom schedule for students)",
+    },
+    {
+      title: "Our Curriculum",
+      icon: "group-white.svg",
+      desc: "  It covers the fundamentals and advanced concepts of web & mobile development",
+    },
+    {
+      title: "Experiential Learning",
+      icon: "group-white (1).svg",
+      desc: "30+ Hands-on Projects&",
+      custom: "5+ Real World (Production Grade) Projects",
     },
   ];
 
@@ -112,40 +132,14 @@ const Home = () => {
         </div>
 
         <div className="right">
-          <div className="line-one">
-            <img src="/vectors/mail-white.svg" />
-            <div>
-              <div className="program">Program Schedule</div>
-              <div className="training">
-                6 months training + 6months paid internship
-                <div className="custom">
-                  (there is a custom schedule for students)
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="line-one">
-            <img src="/vectors/group-white.svg" />
-            <div>
-              <div className="program">Our Curriculum</div>
-              <div className="training">
-                It covers the fundamentals and advanced concepts of web & mobile
-                development
-              </div>
-            </div>
-          </div>
-
-          <div className="line-one">
-            <img src="/vectors/group-white (1).svg" />
-            <div>
-              <div className="program">Experiential Learning</div>
-              <div className="training">
-                30+ Hands-on Projects &
-                <div>5+ Real World (Production Grade) Projects</div>
-              </div>
-            </div>
-          </div>
+          {programs.map((program) => (
+            <Programs
+              icon={program.icon}
+              title={program.title}
+              desc={program.desc}
+              custom={program.custom}
+            />
+          ))}
         </div>
       </div>
       <section className="packages">
@@ -222,10 +216,6 @@ const Home = () => {
             {footers.map((f) => (
               <img src={`/vectors/${f}`} alt="" />
             ))}
-            {/* <img src="/vectors/fb-icon.svg" />
-            <img src="/vectors/tw-icon.svg" />
-            <img src="/vectors/github-icon.svg" />
-            <img src="/vectors/location.svg" /> */}
           </div>
         </div>
       </section>
