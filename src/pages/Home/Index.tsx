@@ -2,8 +2,41 @@ import Service from "../../components/Service";
 import "./Home.css";
 
 const Home = () => {
-  const techs = ["andriod.svg", "bootstrap.svg", "aws.svg"];
-  const socials = ["fb-icon.svg", "tw-icon.svg"];
+  const techs = [
+    "andriod.svg",
+    "bootstrap.svg",
+    "aws.svg",
+    "heroku.svg",
+    "html5.svg",
+    "node.svg",
+    "github.svg",
+    "css.svg",
+    "gitlab.svg",
+    "react.svg",
+    "mysql.svg",
+    "mongodb.svg",
+    "python.svg",
+    "vue.svg",
+    "postgres.svg",
+    "js.svg",
+    "firebase.svg",
+    "redux.svg",
+    "tailwind.svg",
+    "ruby.svg",
+    "figma.svg",
+  ];
+  const socials = [
+    "fb-icon.svg",
+    "tw-icon.svg",
+    "github-icon.svg",
+    "location.svg",
+  ];
+  const footers = [
+    "fb-icon.svg",
+    "tw-icon.svg",
+    "github-icon.svg",
+    "location.svg",
+  ];
 
   const services = [
     {
@@ -16,7 +49,11 @@ const Home = () => {
       icon: "tent-circle.svg",
       desc: " We’re building the next generation of tech talents.",
     },
-    { title: "", icon: "", desc: "" },
+    {
+      title: "Workspaces & Tech Hub",
+      icon: "workspace-circle.svg",
+      desc: "Work and Connect with other Creatives. All in a fun and cozy environment.",
+    },
   ];
 
   return (
@@ -34,10 +71,6 @@ const Home = () => {
             {socials.map((s) => (
               <img src={`/vectors/${s}`} alt="" />
             ))}
-            {/* <img src="/vectors/fb-icon.svg" />
-            <img src="/vectors/tw-icon.svg" />
-            <img src="/vectors/github-icon.svg" />
-            <img src="/vectors/location.svg" /> */}
           </div>
         </div>
 
@@ -63,20 +96,6 @@ const Home = () => {
               desc={service.desc}
             />
           ))}
-
-          {/* 
-
-          <div className="one">
-            <img src="/vectors/workspace-circle.svg" alt="" />
-            <div>
-              <h1 className="iconss">Workspaces & Tech Hub</h1>
-
-              <p className="buildingg">
-                Work and Connect with other Creatives. All in a fun and cozy
-                environment.
-              </p>
-            </div>
-          </div>*/}
         </div>
       </div>
       <div className="third">
@@ -143,30 +162,6 @@ const Home = () => {
             {techs.map((tech) => (
               <img src={`/vectors/${tech}`} alt="" />
             ))}
-            {/* <img src="/vectors/andriod.svg" />
-            <img src="/vectors/bootstrap.svg" />
-            <img src="/vectors/aws.svg" />
-            <img src="/vectors/heroku.svg" />
-            <img src="/vectors/html5.svg" />
-            <img src="/vectors/node.svg" />
-            <img src="/vectors/github.svg" />
-            <img src="/vectors/css.svg" />
-
-            <img src="/vectors/gitlab.svg" />
-            <img src="/vectors/react.svg" />
-            <img src="/vectors/mysql.svg" />
-            <img src="/vectors/mongodb.svg" />
-            <img src="/vectors/python.svg" />
-            <img src="/vectors/vue.svg" />
-
-            <img src="/vectors/postgres.svg" />
-            <img src="/vectors/js.svg" />
-            <img src="/vectors/firebase.svg" />
-            <img src="/vectors/redux.svg" />
-            <img src="/vectors/tailwind.svg" />
-
-            <img src="/vectors/ruby.svg" />
-            <img src="/vectors/figma.svg" /> */}
           </div>
         </div>
       </section>
@@ -224,10 +219,13 @@ const Home = () => {
         <div className="lastt">
           <div>Copyright © 2020-2022 Codevillage Limited</div>
           <div className=" iconsss">
-            <img src="/vectors/fb-icon.svg" />
+            {footers.map((f) => (
+              <img src={`/vectors/${f}`} alt="" />
+            ))}
+            {/* <img src="/vectors/fb-icon.svg" />
             <img src="/vectors/tw-icon.svg" />
             <img src="/vectors/github-icon.svg" />
-            <img src="/vectors/location.svg" />
+            <img src="/vectors/location.svg" /> */}
           </div>
         </div>
       </section>
