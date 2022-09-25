@@ -1,6 +1,24 @@
+import Service from "../../components/Service";
 import "./Home.css";
 
 const Home = () => {
+  const techs = ["andriod.svg", "bootstrap.svg", "aws.svg"];
+  const socials = ["fb-icon.svg", "tw-icon.svg"];
+
+  const services = [
+    {
+      title: "Web dev",
+      icon: "bookmark-circle.svg",
+      desc: "We design and develop tech solutions for SMEs and Government Agency.",
+    },
+    {
+      title: "Bootcamps & Trainings",
+      icon: "tent-circle.svg",
+      desc: " We’re building the next generation of tech talents.",
+    },
+    { title: "", icon: "", desc: "" },
+  ];
+
   return (
     <div>
       <div className="home">
@@ -13,10 +31,13 @@ const Home = () => {
           </p>
           <button className="button">Enroll now</button>
           <div className="icons">
-            <img src="/vectors/fb-icon.svg" />
+            {socials.map((s) => (
+              <img src={`/vectors/${s}`} alt="" />
+            ))}
+            {/* <img src="/vectors/fb-icon.svg" />
             <img src="/vectors/tw-icon.svg" />
             <img src="/vectors/github-icon.svg" />
-            <img src="/vectors/location.svg" />
+            <img src="/vectors/location.svg" /> */}
           </div>
         </div>
 
@@ -35,28 +56,15 @@ const Home = () => {
 
         <img className="office" src="/public/images/cv-office.jpeg" alt="" />
         <div className="secondbuttom">
-          <div className="one">
-            <img src="/vectors/bookmark-circle.svg" alt="" />
-            <div>
-              <h1 className="iconss">Web & Mobile Development</h1>
+          {services.map((service) => (
+            <Service
+              icon={service.icon}
+              title={service.title}
+              desc={service.desc}
+            />
+          ))}
 
-              <p className="design">
-                We design and develop tech solutions for SMEs and Government
-                Agency.
-              </p>
-            </div>
-          </div>
-
-          <div className="one">
-            <img src="/vectors/tent-circle.svg" alt="" />
-            <div>
-              <h1 className="iconss">Bootcamps & Trainings</h1>
-
-              <p className="building">
-                We’re building the next generation of tech talents.
-              </p>
-            </div>
-          </div>
+          {/* 
 
           <div className="one">
             <img src="/vectors/workspace-circle.svg" alt="" />
@@ -68,7 +76,7 @@ const Home = () => {
                 environment.
               </p>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
       <div className="third">
@@ -132,7 +140,10 @@ const Home = () => {
 
         <div className="container">
           <div className="img">
-            <img src="/vectors/andriod.svg" />
+            {techs.map((tech) => (
+              <img src={`/vectors/${tech}`} alt="" />
+            ))}
+            {/* <img src="/vectors/andriod.svg" />
             <img src="/vectors/bootstrap.svg" />
             <img src="/vectors/aws.svg" />
             <img src="/vectors/heroku.svg" />
@@ -155,7 +166,7 @@ const Home = () => {
             <img src="/vectors/tailwind.svg" />
 
             <img src="/vectors/ruby.svg" />
-            <img src="/vectors/figma.svg" />
+            <img src="/vectors/figma.svg" /> */}
           </div>
         </div>
       </section>
