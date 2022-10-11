@@ -9,7 +9,7 @@ const Programs = ({
   icon: string;
   title: string;
   desc: string;
-  custom: string;
+  custom?: string;
 }) => {
   return (
     <div className="line-one">
