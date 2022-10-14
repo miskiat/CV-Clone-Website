@@ -107,7 +107,7 @@ const Home = () => {
           </h1>
         </div>
 
-        <img className="office" src="/public/images/cv-office.jpeg" alt="" />
+        <img className="office" src="/images/cv-office.jpeg" alt="" />
         <div className="secondbuttom">
           {services.map((service) => (
             <Service
